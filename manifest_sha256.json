@@ -1,0 +1,16 @@
+{
+  "package_version": "1.0.0",
+  "date": "2026-10-26",
+  "algorithm": "SHA-256",
+  "files": {
+    "CHANGELOG.md": "234d4928c4a0d3247ed64e14c0972bd59998f5cf6c7f7a7546f6d1c8ac65b27b",
+    "README.md": "4facbf6fa6b7885245889794c640cba77e8cbb9d29741de188c177402fa075f8",
+    "literature/references.md": "35d073b2cc5e0ce99fec10c456ca8ed5d4be4ef7e5819045d5cc225e7736eea1",
+    "literature/search_and_selection_note.md": "c2a8bc1b815c8e94315967d218c97be84e7ef3d2d1537f20b757e44a2e341ac3",
+    "literature/table_S1_extended_evidence.csv": "3c98382d9ed69f1c5b1afd20fca608e3c1c2d63e7f796ec26d2cf02ba7635392",
+    "literature/table_S1_extended_evidence.json": "77481289a76a5bf00cb972c2fa22b13c1df656b6796fc26d0b66e6ad87c06749",
+    "literature/table_S1_extended_evidence.md": "964aac5e33a3e646846d0803d518dab6a37c8009269e0671a21dd07eb4c2484b",
+    "scripts/build_literature_pdf.py": "8ab283aea87a9831cdb7928024da5870966296b49ef5c83e218d9c8ae7182606",
+    "supplementary_literature.pdf": "58472d2830b16b6aba1a4369c6d3f3941a428df786c28eaeba1cc8e2811127f0"
+  }
+}
