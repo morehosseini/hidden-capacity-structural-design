@@ -1,0 +1,9 @@
+Disposition,n,% of structural,Note
+Valid governing utilisation,"1,454,574",89.99,"0 < D/C ≤ 1 on a strength, deflection or bearing check; enters the analysis."
+Over unity,"82,524",5.11,Numeric governing utilisation above unity; summarised by check type in Section 4.6 of the paper.
+Other governing check,"30,831",1.91,"Reference is a factor of safety, a geometric limit or unclassified; outside the classes analysed (S2.4)."
+Boolean-valued summary record,"30,721",1.90,"True (19,156): no numeric check on the sheet. False (11,565): a Boolean check failed. Not counted as failed designs (S2.5)."
+Solve error,"14,441",0.89,"Stored value is an error: not a number, or infinite."
+Empty,"2,246",0.14,No stored summary value.
+Non-positive,"1,109",0.07,Parsed value ≤ 0.
+Total structural-template records,"1,616,446",100.00,

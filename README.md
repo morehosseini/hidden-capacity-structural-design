@@ -19,13 +19,14 @@ Supplementary Note S2 (data and methods details):
 
 - [Supplementary Note S2 PDF](supplementary_methods.pdf), including Supplementary Tables S2 (supplied fields) and S3 (itemised disposition of structural-template records).
 - [Markdown source](methods/supplementary_note_S2_data_and_methods.md).
+- [Table S2 CSV](methods/table_S2_supplied_fields.csv) and [Table S3 CSV](methods/table_S3_structural_record_disposition.csv): machine-readable copies of the two tables.
 - [PDF build script](scripts/build_methods_pdf.py).
 
 The table is a curated comparison. Its entries measure different outcomes and may include related datasets. Neither their sample counts nor their outcome percentages should be pooled. Original sources should be cited when using their findings; this package does not replace those citations.
 
 ## Publication and citation status
 
-This is local repository content prepared for GitHub upload. No remote GitHub destination, public release, archival DOI or journal acceptance is asserted. The manuscript refers to Supplementary Table S1 and Supplementary Note S2 in the accompanying repository. Supply both PDFs to reviewers alongside the manuscript.
+This content is hosted in the Paper A GitHub repository (https://github.com/morehosseini/hidden-capacity-structural-design). No tagged release, archival DOI or journal acceptance is asserted. The manuscript refers to Supplementary Table S1 and Supplementary Note S2 in the accompanying repository. Supply both PDFs to reviewers alongside the manuscript.
 
 When the Paper A repository is published, include this folder's contents, create a versioned release matching this package, archive that release with Zenodo or an equivalent persistent repository, and add its verified version DOI to the manuscript's Section 2.2 repository citation and this README. No DOI placeholder has been inserted into the scientific prose. Check the confirmed journal's supplementary-material requirements. Reconcile the separate, older empirical reproducibility bundle before describing it as current.
 

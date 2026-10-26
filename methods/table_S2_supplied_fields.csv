@@ -1,0 +1,13 @@
+Field,Role in the analysis
+sheet_template_id,Template identifier retained for provenance.
+sheet_template_code,Template classification and de-duplication key; pseudonymised where the code carried a customer name (S2.3).
+sheet_template_version,Template-version provenance.
+sheet_created_at,Time the sheet was created; chronology and de-duplication ordering.
+sheet_id,Calculation-sheet identifier; one row per sheet.
+sheet_name,"User-assigned member label, used only inside the de-duplication key; contents not analysed or reported."
+summary_check_value,"Governing utilisation of the sheet, parsed to D/C where valid."
+summary_check_reference_id,Identifier of the governing check to which the value refers.
+user_id,Pseudonymous user account used for engineer-account grouping.
+project_id,Pseudonymous project grouping.
+organisation_id,Pseudonymous organisation grouping.
+payment_status,Snapshot provenance; all records are from paid accounts.
