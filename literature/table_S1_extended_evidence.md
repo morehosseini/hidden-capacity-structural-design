@@ -4,7 +4,7 @@
 
 Version 1.0.0 · 26 October 2026
 
-This curated comparison accompanies Section 2.2 and the eight-study Table 1 in Paper A, Hidden Capacity in Everyday Structural Design. It retains all 22 entries from the expanded comparison, grouped by their evidence role. It is an extended comparison rather than a systematic or exhaustive review. Entries are publications or study programmes, not 22 independent comparable datasets.
+This curated comparison accompanies Section 2.2 and the eight-study Table 1 in Paper A, “Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations”. It retains all 22 entries from the expanded comparison, grouped by their evidence role. It is an extended comparison rather than a systematic or exhaustive review. Entries are publications or study programmes, not 22 independent comparable datasets.
 
 Utilisation, conditional reserve, reinforcement quantities, redesigned material quantities, cost and embodied carbon are distinct outcomes. Samples and findings are not pooled. A low demand-to-capacity ratio does not establish directly removable material. Dataset overlap, appraisal assumptions and verification limits are retained below and in the structured files.
 

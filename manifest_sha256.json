@@ -1,25 +1,25 @@
 {
-  "package_version": "1.2.1",
-  "date": "2026-10-27",
+  "package_version": "1.2.2",
+  "date": "2026-10-28",
   "algorithm": "SHA-256",
   "files": {
-    "CHANGELOG.md": "c03efae980c78ce789ef3ec48e292ccd9e081b3343b3c08b7185f225302c9d88",
-    "README.md": "369562ef953836fefcbfb966f8f22974316b00078141e5583f6d3913b7846f0b",
+    "CHANGELOG.md": "a4eadf38fbef32d372cfd5075b25fe0dfa407cfb11a65120d8bb717c1352c19c",
+    "README.md": "66d912d5e51b5fed5cd3c7fd0ac504e8214f24eccdce6979b3f896ace1a3570e",
     "literature/references.md": "35d073b2cc5e0ce99fec10c456ca8ed5d4be4ef7e5819045d5cc225e7736eea1",
     "literature/search_and_selection_note.md": "c2a8bc1b815c8e94315967d218c97be84e7ef3d2d1537f20b757e44a2e341ac3",
     "literature/table_S1_extended_evidence.csv": "3c98382d9ed69f1c5b1afd20fca608e3c1c2d63e7f796ec26d2cf02ba7635392",
     "literature/table_S1_extended_evidence.json": "77481289a76a5bf00cb972c2fa22b13c1df656b6796fc26d0b66e6ad87c06749",
-    "literature/table_S1_extended_evidence.md": "964aac5e33a3e646846d0803d518dab6a37c8009269e0671a21dd07eb4c2484b",
-    "methods/supplementary_note_S2_data_and_methods.md": "310a478efcf9107cba9552b05e31eaa42bf1343604b226670722f6f81abb5f8c",
+    "literature/table_S1_extended_evidence.md": "deda9d5524d143c2ab34d05a19d8e4651cfd14e7b7c787cbef869a26664e1022",
+    "methods/supplementary_note_S2_data_and_methods.md": "32cd0a46b17f2487d9c2461bdb8a20e73906503e7caaa84a7e31f15ef1377f96",
     "methods/table_S2_supplied_fields.csv": "0bdc84401e2be6893ec64a1079f78221de4ae6d0cca26ee06edcbbf9e3434e02",
     "methods/table_S3_structural_record_disposition.csv": "b7ce1ccbc7337027c743e58d30282827ccaf4f3bec00f4f9e3b66d9f84e92298",
     "methods/table_S4_bootstrap_intervals.csv": "4bf4e9362ae545cde102038aac123f7fd15530a464a303a6ecab630890b618a6",
     "methods/table_S5_common_weight_comparison.csv": "e4dbadc84d519deead27cebb11f54a5bf2f373f889bed84f01d2de3859736ef1",
     "methods/table_S6_within_template_gradient.csv": "3788747ec15836d48f240fc99b01a6fff379d92f49fb45f18db64b4d104767ab",
     "methods/table_S7_specification_grid.csv": "cd1732e36faa886e7af577148e7a5f219cb7713d67411f83d0b20920c27f59bc",
-    "scripts/build_literature_pdf.py": "8ab283aea87a9831cdb7928024da5870966296b49ef5c83e218d9c8ae7182606",
+    "scripts/build_literature_pdf.py": "cd9f82d1a44f83a2d739da0692180fbb0d00ff65c4258d56f228d1125d2bf0bc",
     "scripts/build_methods_pdf.py": "e9a69d27af8038764734976263296325d91d9a0a8ced393c487f144f39078fc2",
-    "supplementary_literature.pdf": "58472d2830b16b6aba1a4369c6d3f3941a428df786c28eaeba1cc8e2811127f0",
-    "supplementary_methods.pdf": "b6ff1464f644abccdde388486a57af5e1c1af810ad81d8860e9daeb7e1e21a97"
+    "supplementary_literature.pdf": "c6ba76fc4cf463158ada975d7dfd5a143468d4a5aa16ba7bb1b2c52b87fc4308",
+    "supplementary_methods.pdf": "539dcbc1f9b4ad9da55864be026031662e4fa19f0dbbab127a0407802ab1b575"
   }
 }

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.2 — 28 October 2026
+
+Paper A has a new title: *Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations*. The README, Supplementary Note S2 and the Supplementary Table S1 table, PDF and build script now use it. Both PDFs were rebuilt. No data, table or analysis changed, and S1 keeps its version 1.0.0 because only the title in its introductory sentence differs.
+
+The repository keeps its address, https://github.com/morehosseini/hidden-capacity-structural-design, because the manuscript cites it.
+
 ## 1.2.1 — 27 October 2026
 
 S2.6 now states the de-duplication rule decided on 27 October 2026. The current key is applied after the validity filters, and the latest-created record is kept, with ties broken by sheet identifier. The key without the governing reference is the reported sensitivity.

@@ -1,8 +1,8 @@
 # Paper A supplementary material
 
-Version 1.2.1 · 27 October 2026
+Version 1.2.2 · 28 October 2026
 
-This folder contains the repository content accompanying the shortened Table 1 and Section 2.2 in Paper A, *Hidden Capacity in Everyday Structural Design*. Supplementary Table S1 preserves the complete 22-entry comparison; eight selected studies remain in the manuscript. The package contains literature summaries and provenance, independently of the empirical-analysis release.
+This folder contains the repository content accompanying the shortened Table 1 and Section 2.2 in Paper A, *Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations*. Supplementary Table S1 preserves the complete 22-entry comparison; eight selected studies remain in the manuscript. The package contains literature summaries and provenance, independently of the empirical-analysis release.
 
 Supplementary Note S2, added in version 1.1.0, accompanies the condensed Section 3 (Data and methods). It holds the field definitions, operator-confirmed platform behaviour, classification and storage rules, itemised exclusions, de-duplication tests and model settings that the main text summarises. Version 1.2.0 adds the uncertainty and robustness analyses reported in Sections 4.1, 4.2 and 4.6 of the paper: organisation-cluster bootstrap intervals, common-weight comparison of the governing groups, the within-template band gradient and the full specification grid (Tables S4–S7). It contains descriptions and aggregate counts only; no calculation records, template codes, sheet names or per-template results.
 

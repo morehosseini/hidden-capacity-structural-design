@@ -40,7 +40,7 @@ def footer(c,d):
 
 story=[P('Supplementary Table S1','MainTitle'),P('Extended comparison of structural utilisation and related design evidence','Subhead'),
     P('Version 1.0.0 · 26 October 2026','SmallText'),
-    P('This curated comparison accompanies Section 2.2 and Table 1 in Paper A, Hidden Capacity in Everyday Structural Design. The 22 entries report different measures and may include related datasets; their samples and outcomes are not pooled. Appraisal or redesign results do not establish directly removable material. Study IDs link to the sources and provenance notes that follow.','SmallText'),
+    P('This curated comparison accompanies Section 2.2 and Table 1 in Paper A, “Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations”. The 22 entries report different measures and may include related datasets; their samples and outcomes are not pooled. Appraisal or redesign results do not establish directly removable material. Study IDs link to the sources and provenance notes that follow.','SmallText'),
     P('GWP = global warming potential; LCA = life-cycle assessment; RC = reinforced concrete; PT = post-tensioned. Carbon scopes and comparison limits remain source-specific.','SmallText')]
 groups=list(dict.fromkeys(r['evidence_group'] for r in rows))
 for gi,g in enumerate(groups,1):
