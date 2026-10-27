@@ -5,6 +5,7 @@
 - Added the paper's three figures (PNG and vector PDF) in `figures/`, and a README that shows them with captions and a summary of the study.
 - The README and the supplementary documents now describe the material for readers of the paper. Internal project names and draft version numbers were removed, as were drafting notes in the README, the changelog and Table S1.
 - The two PDFs were rebuilt. Their footers show the document name, version and date, and the PDF build scripts read the version from the Markdown sources. Document versions now follow the package version.
+- The v1.0.0 release notes and its PDF were updated to match.
 - No data, table or analysis changed.
 
 ## 1.2.2 — 28 October 2026
