@@ -2,7 +2,7 @@
 
 ## Extended comparison of structural utilisation and related design evidence
 
-Version 1.3.0 · 28 October 2026
+Version 1.3.1 · 28 October 2026
 
 This curated comparison accompanies Section 2.2 and the eight-study Table 1 in the paper “Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations”. It retains all 22 entries from the expanded comparison, grouped by their evidence role. It is an extended comparison rather than a systematic or exhaustive review. Entries are publications or study programmes, not 22 independent comparable datasets.
 
@@ -28,7 +28,7 @@ IDs link each row to its source and provenance notes. Source references are incl
 | --- | --- | --- | --- | --- |
 | S07 — Drewniok et al. (2020) | UK Eurocode context; non-composite steel beams | Catalogue-based redesign with fixed layout | 26.5% mass savings in original-constraint scenario | Conditional optimisation outcome, rather than routine-practice prevalence |
 | S08 — Gillott et al. (2025) | UK code context; steel office frames | 11,252 hypothetical configurations; 11 scenarios | Reserve and extension potential vary with design and appraisal | Generated cases do not establish observed utilisation frequencies |
-| S09 — Miller et al. (2012) | Australia, South East Queensland; concrete office slabs | One 10-storey office; reinforced and post-tensioned slab alternatives; material quantities | Post-tensioned alternative used 36.9% less concrete volume and 43.4% less steel mass | Single design comparison of alternative slab systems; savings are conditional on the study design, rather than observed reserve |
+| S09 — Miller et al. (2013) | Australia, South East Queensland; concrete office slabs | One 10-storey office; reinforced and post-tensioned slab alternatives; material quantities | Post-tensioned alternative used 36.9% less concrete volume and 43.4% less steel mass | Single design comparison of alternative slab systems; savings are conditional on the study design, rather than observed reserve |
 | S10 — Dunn (2015), FWPA project PNA308-1213 | Australia, Sydney reference location; timber versus concrete or steel | Four building types: office, apartment, aged care and industrial shed; structural cost plans | Timber structural costs lower by 12.4%, 2.2%, 13.9% and 9.4%, respectively | Industry costing of alternative systems at a specified location and date; measures cost, rather than utilisation or removable material |
 | S11 — Helal et al. (2020) | Australia-based study; parametric tall-building systems | 80 structural systems; finite-element design and hybrid life-cycle inventory analysis | Changing structural design methods changed embodied greenhouse-gas emissions by up to 22% | Modelled systems; sensitivity to design and appraisal assumptions, rather than observed member-utilisation frequencies |
 | S12 — Hawkins et al. (2020) | UK research; thin-shell concrete floors versus flat slabs | Design comparisons across 6–18 m spans; equivalent structural performance | Thin-shell floors reduced embodied carbon by 53–58% and self-weight by 43–53% | Conditional floor-system redesign; requires a different structural form and construction method; no prevalence estimate |
@@ -146,13 +146,13 @@ Dataset relationship: Hypothetical cases must not be combined with counts of obs
 
 Main Table 1: yes. Main Section 2.2 prose: yes.
 
-### S09 — Miller et al. (2012)
+### S09 — Miller et al. (2013)
 
-Miller, D., Doh, J.-H., Guan, H., Mulvey, M., and Fragomeni, S. (2012). Environmental impact assessment of post tensioned and reinforced concrete slab construction. In From Materials to Structures: Advancement through Innovation. CRC Press.
+Miller, D., Doh, J.-H., Guan, H., Mulvey, M., Fragomeni, S., McCarthy, T., and Peters, T. (2013). Environmental impact assessment of post tensioned and reinforced concrete slab construction. In From Materials to Structures: Advancement through Innovation. CRC Press.
 
 Source: [https://doi.org/10.1201/b15320-180](https://doi.org/10.1201/b15320-180)
 
-Evidence access and verification: Chapter text checked in the source review for the 10-storey reference office and 36.9% concrete/43.4% steel differences.
+Evidence access and verification: Chapter text checked in the source review for the 10-storey reference office and 36.9% concrete/43.4% steel differences. Publication year and the seven-author list were reconciled against the Griffith University repository record on 28 October 2026; ACMSM 2012 is the conference name.
 
 Dataset relationship: Two slab-system alternatives for one reference office, not two independent buildings.
 

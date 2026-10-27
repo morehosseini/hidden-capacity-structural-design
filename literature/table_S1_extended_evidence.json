@@ -128,20 +128,20 @@
     "review_date": "2026-10-26"
   },
   {
-    "study": "Miller et al. (2012)",
+    "study": "Miller et al. (2013)",
     "setting": "Australia, South East Queensland; concrete office slabs",
     "sample_and_measure": "One 10-storey office; reinforced and post-tensioned slab alternatives; material quantities",
     "finding": "Post-tensioned alternative used 36.9% less concrete volume and 43.4% less steel mass",
     "comparison_limit": "Single design comparison of alternative slab systems; savings are conditional on the study design, rather than observed reserve",
     "id": "S09",
     "evidence_group": "Redesign, structural-system and optimisation comparisons",
-    "reference": "Miller, D., Doh, J.-H., Guan, H., Mulvey, M., and Fragomeni, S. (2012). Environmental impact assessment of post tensioned and reinforced concrete slab construction. In From Materials to Structures: Advancement through Innovation. CRC Press.",
+    "reference": "Miller, D., Doh, J.-H., Guan, H., Mulvey, M., Fragomeni, S., McCarthy, T., and Peters, T. (2013). Environmental impact assessment of post tensioned and reinforced concrete slab construction. In From Materials to Structures: Advancement through Innovation. CRC Press.",
     "source_locator": "https://doi.org/10.1201/b15320-180",
-    "evidence_access_and_verification": "Chapter text checked in the source review for the 10-storey reference office and 36.9% concrete/43.4% steel differences.",
+    "evidence_access_and_verification": "Chapter text checked in the source review for the 10-storey reference office and 36.9% concrete/43.4% steel differences. Publication year and the seven-author list were reconciled against the Griffith University repository record on 28 October 2026; ACMSM 2012 is the conference name.",
     "dataset_overlap_note": "Two slab-system alternatives for one reference office, not two independent buildings.",
     "main_table": "no",
     "main_prose": "yes",
-    "review_date": "2026-10-26"
+    "review_date": "2026-10-28"
   },
   {
     "study": "Dunn (2015), FWPA project PNA308-1213",

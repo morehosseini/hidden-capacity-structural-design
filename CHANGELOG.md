@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.1 — 28 October 2026
+
+- Reconciled the Miller et al. reference to the 2013 publication and seven-author record used by the manuscript and Griffith University repository; updated every S1 reuse format.
+- Distinguished organisation sensitivity from individual engineer accounts, and clarified the combined account-by-organisation predictor and band boundaries in Note S2.
+- Aligned the README with the valid-ratio population, mean squared prediction error, figure-caption definitions and public-versus-request-only outputs.
+- Documented the separate cleaning, uncertainty/robustness and prediction environments. Rebuilt both PDFs and refreshed checksums.
+- Reported results, study-entry selection, CSV values in Tables S2–S7 and all six figure files are unchanged. No research analysis was rerun.
+- The older v1.0.0 release remains available; use the main branch for this complete package.
+
 ## 1.3.0 — 28 October 2026
 
 - Added the paper's three figures (PNG and vector PDF) in `figures/`, and a README that shows them with captions and a summary of the study.

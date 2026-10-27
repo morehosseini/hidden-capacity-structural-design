@@ -40,11 +40,13 @@ def inline(t):
 VERSION,DATE=re.search(r'^Version (\S+) · (.+)$',SRC.read_text(encoding='utf-8'),re.M).groups()
 
 def footer(c,d):
+    c.saveState()
     c.setTitle('Supplementary Note S2 — Data and methods details')
     c.setAuthor('Supplementary material')
     c.setFont('Arial',8);c.setFillColor(colors.HexColor('#555555'))
     c.drawString(54,30,f'Supplementary Note S2 | Version {VERSION} | {DATE}')
     c.drawRightString(558,30,str(d.page))
+    c.restoreState()
 
 # column widths (points, 504 in total) and horizontal cell padding for each table
 WIDTHS={'S2':[150,354],'S3':[150,62,62,230],'S4':[150,110,50,94,100],'S5':[150,112,58,60,64,60],

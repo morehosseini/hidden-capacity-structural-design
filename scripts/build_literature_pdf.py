@@ -33,11 +33,13 @@ def P(text,style='Text'):
     return Paragraph(escape(text),styles[style])
 
 def footer(c,d):
+    c.saveState()
     c.setTitle('Supplementary Table S1 — Extended comparison of structural utilisation and related design evidence')
     c.setAuthor('Supplementary literature comparison')
     c.setFont('Arial',8);c.setFillColor(colors.HexColor('#555555'))
     c.drawString(36,22,f'Supplementary Table S1 | Version {VERSION} | {DATE}')
     c.drawRightString(756,22,str(d.page))
+    c.restoreState()
 
 story=[P('Supplementary Table S1','MainTitle'),P('Extended comparison of structural utilisation and related design evidence','Subhead'),
     P(f'Version {VERSION} · {DATE}','SmallText'),
@@ -64,7 +66,7 @@ for gi,g in enumerate(groups,1):
         story += [t,Spacer(1,8)]
 
 story += [PageBreak(),P('Sources and provenance notes','MainTitle'),
-    P('All entries were reviewed on 26 October 2026. Access and verification limits are stated individually. These notes and the selection section form part of Table S1. Original sources should be cited when using their findings.','SmallText')]
+    P('Evidence entries were reviewed on 26 October 2026, with bibliographic consistency updates on 28 October 2026. Access and verification limits are stated individually. These notes and the selection section form part of Table S1. Original sources should be cited when using their findings.','SmallText')]
 for r in rows:
     block=[P(r['id']+' — '+r['study'],'SourceTitle'),P(r['reference'],'SmallText')]
     for url in r['source_locator'].split(' ; '):

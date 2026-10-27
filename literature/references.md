@@ -1,6 +1,6 @@
 # References for Supplementary Table S1
 
-Version 1.3.0 · 28 October 2026
+Version 1.3.1 · 28 October 2026
 
 ## S01 — Moynihan and Allwood (2014)
 
@@ -50,9 +50,9 @@ Gillott, C., Davison, B., and Densley Tingley, D. (2025). Reserve capacity and v
 
 https://doi.org/10.1680/jstbu.24.00010
 
-## S09 — Miller et al. (2012)
+## S09 — Miller et al. (2013)
 
-Miller, D., Doh, J.-H., Guan, H., Mulvey, M., and Fragomeni, S. (2012). Environmental impact assessment of post tensioned and reinforced concrete slab construction. In From Materials to Structures: Advancement through Innovation. CRC Press.
+Miller, D., Doh, J.-H., Guan, H., Mulvey, M., Fragomeni, S., McCarthy, T., and Peters, T. (2013). Environmental impact assessment of post tensioned and reinforced concrete slab construction. In From Materials to Structures: Advancement through Innovation. CRC Press.
 
 https://doi.org/10.1201/b15320-180
 
