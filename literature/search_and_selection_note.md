@@ -1,10 +1,10 @@
 # Search and selection note
 
-Version 1.0.0 · 26 October 2026
+Version 1.3.0 · 28 October 2026
 
 ## Purpose and routes
 
-This is a curated comparison used to position an empirical study of recorded governing utilisation. It is not a systematic review, a prevalence meta-analysis or a census of global practice. Seven original manuscript comparators were supplemented through four Exa search passes on 26 October 2026: Australia/New Zealand; United States academic studies; United States industry and professional bodies; and global utilisation audits. Citation tracing and direct publisher, university-repository and report checks followed. Bibliographic details and source limits were reconciled when building this package.
+This is a curated comparison used to position an empirical study of recorded governing utilisation. It is not a systematic review, a prevalence meta-analysis or a census of global practice. The seven comparators from the paper’s initial literature review were supplemented through four Exa search passes on 26 October 2026: Australia/New Zealand; United States academic studies; United States industry and professional bodies; and global utilisation audits. Citation tracing and direct publisher, university-repository and report checks followed. Bibliographic details and source limits were reconciled when building this package.
 
 The working search note records `sources_reviewed: 378`. That is a search-process count, not a reproducible count of unique deduplicated records or full texts screened. No PRISMA screening count, complete search-string archive or exhaustive coverage is claimed. The structured table states the access/verification boundary for each included entry. The original working note remains an internal record; it is superseded by S1 for the selected table content.
 

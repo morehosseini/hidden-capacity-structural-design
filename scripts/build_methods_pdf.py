@@ -41,9 +41,9 @@ VERSION,DATE=re.search(r'^Version (\S+) · (.+)$',SRC.read_text(encoding='utf-8'
 
 def footer(c,d):
     c.setTitle('Supplementary Note S2 — Data and methods details')
-    c.setAuthor('Paper A supplementary material')
+    c.setAuthor('Supplementary material')
     c.setFont('Arial',8);c.setFillColor(colors.HexColor('#555555'))
-    c.drawString(54,30,f'Paper A | Supplementary Note S2 | Version {VERSION} | {DATE}')
+    c.drawString(54,30,f'Supplementary Note S2 | Version {VERSION} | {DATE}')
     c.drawRightString(558,30,str(d.page))
 
 # column widths (points, 504 in total) and horizontal cell padding for each table

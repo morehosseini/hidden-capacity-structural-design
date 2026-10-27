@@ -2,13 +2,13 @@
 
 ## Extended comparison of structural utilisation and related design evidence
 
-Version 1.0.0 · 26 October 2026
+Version 1.3.0 · 28 October 2026
 
-This curated comparison accompanies Section 2.2 and the eight-study Table 1 in Paper A, “Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations”. It retains all 22 entries from the expanded comparison, grouped by their evidence role. It is an extended comparison rather than a systematic or exhaustive review. Entries are publications or study programmes, not 22 independent comparable datasets.
+This curated comparison accompanies Section 2.2 and the eight-study Table 1 in the paper “Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations”. It retains all 22 entries from the expanded comparison, grouped by their evidence role. It is an extended comparison rather than a systematic or exhaustive review. Entries are publications or study programmes, not 22 independent comparable datasets.
 
 Utilisation, conditional reserve, reinforcement quantities, redesigned material quantities, cost and embodied carbon are distinct outcomes. Samples and findings are not pooled. A low demand-to-capacity ratio does not establish directly removable material. Dataset overlap, appraisal assumptions and verification limits are retained below and in the structured files.
 
-IDs link each row to its source and provenance notes. Source references are included here so this table can be read independently of the manuscript reference list. GWP means global warming potential; LCA means life-cycle assessment; RC means reinforced concrete; PT means post-tensioned. Carbon intensities retain each source's physical scope, life-cycle stages and floor-area denominator; unlike scopes are not treated as interchangeable.
+IDs link each row to its source and provenance notes. Source references are included here so this table can be read independently of the paper’s reference list. GWP means global warming potential; LCA means life-cycle assessment; RC means reinforced concrete; PT means post-tensioned. Carbon intensities retain each source's physical scope, life-cycle stages and floor-area denominator; unlike scopes are not treated as interchangeable.
 
 
 ## Panel A — Utilisation, reserve and reinforcement appraisals
@@ -68,7 +68,7 @@ Dunant, C. F., Drewniok, M. P., Eleftheriadis, S., Cullen, J. M., and Allwood, J
 
 Source: [https://doi.org/10.1016/j.resconrec.2018.01.009](https://doi.org/10.1016/j.resconrec.2018.01.009)
 
-Evidence access and verification: Original manuscript comparator; governing checks and conditional unused-mass appraisal retained.
+Evidence access and verification: Comparator retained in the paper’s Table 1; governing checks and conditional unused-mass appraisal retained.
 
 Dataset relationship: Dunant et al. (2021) reuses 19 designs from this floor-plate database; no separate entry is added.
 
@@ -128,7 +128,7 @@ Drewniok, M. P., Campbell, J., and Orr, J. (2020). The Lightest Beam Method – 
 
 Source: [https://doi.org/10.1016/j.istruc.2020.06.015](https://doi.org/10.1016/j.istruc.2020.06.015)
 
-Evidence access and verification: Original manuscript comparator; retain the original-constraint scenario for the 26.5% mass saving.
+Evidence access and verification: Comparator retained in the paper’s Table 1; retain the original-constraint scenario for the 26.5% mass saving.
 
 Dataset relationship: Conditional catalogue redesign; no additional observed practice population.
 
@@ -140,7 +140,7 @@ Gillott, C., Davison, B., and Densley Tingley, D. (2025). Reserve capacity and v
 
 Source: [https://doi.org/10.1680/jstbu.24.00010](https://doi.org/10.1680/jstbu.24.00010)
 
-Evidence access and verification: Original manuscript comparator; 11,252 generated configurations and 11 scenarios retained.
+Evidence access and verification: Comparator retained in the paper’s Table 1; 11,252 generated configurations and 11 scenarios retained.
 
 Dataset relationship: Hypothetical cases must not be combined with counts of observed projects or members.
 
@@ -248,7 +248,7 @@ Fang, D., Kenny, P., and Mueller, C. (2026). Material efficiency as a key opport
 
 Source: [https://doi.org/10.1061/JSENDH.STENG-14451](https://doi.org/10.1061/JSENDH.STENG-14451)
 
-Evidence access and verification: Original manuscript comparator; source metadata preserved from its EndNote record; quantities/carbon measure distinguished from D/C.
+Evidence access and verification: Comparator retained in the paper’s Table 1; source metadata taken from the reference record; quantities/carbon measure distinguished from D/C.
 
 Dataset relationship: One-firm programme overlaps the earlier Thornton Tomasetti tracking programme. Possible overlap with other project databases is not resolved; counts are not summed.
 

@@ -1,8 +1,8 @@
 # Supplementary Note S2. Data and methods details
 
-Version 1.2.2 · 28 October 2026
+Version 1.3.0 · 28 October 2026
 
-This note accompanies Section 3 of Paper A, *Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations*. It records the field definitions, platform behaviour confirmed by the operator, classification and storage rules, de-duplication tests and model settings that the main text summarises. All counts refer to the Calcs.com export analysed in the paper. The underlying calculation records are held by Calcs.com and are not part of this repository; access is described in the paper's Data availability statement.
+This note accompanies Section 3 (Data and methods) of the paper *Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations*. It records the field definitions, platform behaviour confirmed by the operator, classification and storage rules, de-duplication tests and model settings that the main text summarises. All counts refer to the Calcs.com export analysed in the paper. The underlying calculation records are held by Calcs.com and are not part of this repository; access is described in the paper's Data availability statement.
 
 ## S2.1 Supplied fields and identifiers
 

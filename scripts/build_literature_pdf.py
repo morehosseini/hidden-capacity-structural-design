@@ -19,6 +19,7 @@ for name,file in [('Arial','Arial.ttf'),('Arial-Bold','Arial Bold.ttf'),('Arial-
     pdfmetrics.registerFont(TTFont(name,str(fonts/file)))
 pdfmetrics.registerFontFamily('Arial',normal='Arial',bold='Arial-Bold',italic='Arial-Italic',boldItalic='Arial-Bold')
 rows=json.loads((ROOT/'literature/table_S1_extended_evidence.json').read_text())
+VERSION,DATE=re.search(r'^Version (\S+) · (.+)$',(ROOT/'literature/table_S1_extended_evidence.md').read_text(encoding='utf-8'),re.M).groups()
 styles=getSampleStyleSheet()
 styles.add(ParagraphStyle(name='MainTitle',fontName='Arial-Bold',fontSize=16,leading=19,spaceAfter=9,textColor=colors.black))
 styles.add(ParagraphStyle(name='Subhead',fontName='Arial-Bold',fontSize=12,leading=15,spaceBefore=10,spaceAfter=7,keepWithNext=True,textColor=colors.black))
@@ -33,14 +34,14 @@ def P(text,style='Text'):
 
 def footer(c,d):
     c.setTitle('Supplementary Table S1 — Extended comparison of structural utilisation and related design evidence')
-    c.setAuthor('Paper A supplementary literature comparison')
+    c.setAuthor('Supplementary literature comparison')
     c.setFont('Arial',8);c.setFillColor(colors.HexColor('#555555'))
-    c.drawString(36,22,'Paper A | Supplementary Table S1 | Version 1.0.0 | 26 October 2026')
+    c.drawString(36,22,f'Supplementary Table S1 | Version {VERSION} | {DATE}')
     c.drawRightString(756,22,str(d.page))
 
 story=[P('Supplementary Table S1','MainTitle'),P('Extended comparison of structural utilisation and related design evidence','Subhead'),
-    P('Version 1.0.0 · 26 October 2026','SmallText'),
-    P('This curated comparison accompanies Section 2.2 and Table 1 in Paper A, “Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations”. The 22 entries report different measures and may include related datasets; their samples and outcomes are not pooled. Appraisal or redesign results do not establish directly removable material. Study IDs link to the sources and provenance notes that follow.','SmallText'),
+    P(f'Version {VERSION} · {DATE}','SmallText'),
+    P('This curated comparison accompanies Section 2.2 and Table 1 in the paper “Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations”. The 22 entries report different measures and may include related datasets; their samples and outcomes are not pooled. Appraisal or redesign results do not establish directly removable material. Study IDs link to the sources and provenance notes that follow.','SmallText'),
     P('GWP = global warming potential; LCA = life-cycle assessment; RC = reinforced concrete; PT = post-tensioned. Carbon scopes and comparison limits remain source-specific.','SmallText')]
 groups=list(dict.fromkeys(r['evidence_group'] for r in rows))
 for gi,g in enumerate(groups,1):
@@ -88,6 +89,6 @@ for block in selection.split('\n\n')[2:]:
 output=ROOT/'supplementary_literature.pdf'
 doc=SimpleDocTemplate(str(output),pagesize=landscape(letter),rightMargin=36,leftMargin=36,topMargin=32,bottomMargin=37,
     title='Supplementary Table S1 — Extended comparison of structural utilisation and related design evidence',
-    author='Paper A supplementary literature comparison')
+    author='Supplementary literature comparison')
 doc.build(story,onFirstPage=footer,onLaterPages=footer)
 print(output)
