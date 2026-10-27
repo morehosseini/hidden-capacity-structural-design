@@ -1,0 +1,7 @@
+population,resampling_unit,mean,ci_lower,ci_upper,width_relative_to_independent
+Headline set,Records (independent),0.5471,0.5467,0.5476,1.0
+Headline set,Engineer accounts,0.5471,0.538,0.5576,22.3
+Headline set,Organisations,0.5471,0.5355,0.5812,51.9
+Without the largest organisation,Records (independent),0.5657,0.5651,0.5663,1.0
+Without the largest organisation,Engineer accounts,0.5657,0.5498,0.5805,24.5
+Without the largest organisation,Organisations,0.5657,0.5446,0.5844,31.7

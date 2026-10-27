@@ -1,0 +1,13 @@
+population,template_weights,templates,strength_governed_mean,deflection_governed_mean,difference
+Headline set,Each group’s own records,46,0.4705,0.6259,0.1554
+Headline set,Common: records in both groups,46,0.4493,0.6412,0.1919
+Headline set,Common: equal per template,46,0.4972,0.6617,0.1645
+"Headline set, templates with ≥ 30 records in each group",Each group’s own records,36,0.4704,0.6259,0.1555
+"Headline set, templates with ≥ 30 records in each group",Common: records in both groups,36,0.4492,0.6412,0.192
+"Headline set, templates with ≥ 30 records in each group",Common: equal per template,36,0.4897,0.6669,0.1772
+Without the largest organisation,Each group’s own records,46,0.5202,0.6515,0.1313
+Without the largest organisation,Common: records in both groups,46,0.5124,0.6692,0.1568
+Without the largest organisation,Common: equal per template,46,0.5011,0.6593,0.1582
+"Without the largest organisation, templates with ≥ 30 records in each group",Each group’s own records,35,0.5202,0.6515,0.1313
+"Without the largest organisation, templates with ≥ 30 records in each group",Common: records in both groups,35,0.5124,0.6694,0.1569
+"Without the largest organisation, templates with ≥ 30 records in each group",Common: equal per template,35,0.496,0.6593,0.1633

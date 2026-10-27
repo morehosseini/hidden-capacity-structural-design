@@ -1,10 +1,10 @@
 # Paper A supplementary material
 
-Version 1.1.0 · 27 October 2026
+Version 1.2.0 · 27 October 2026
 
 This folder contains the repository content accompanying the shortened Table 1 and Section 2.2 in Paper A, *Hidden Capacity in Everyday Structural Design*. Supplementary Table S1 preserves the complete 22-entry comparison; eight selected studies remain in the manuscript. The package contains literature summaries and provenance, independently of the empirical-analysis release.
 
-Supplementary Note S2, added in version 1.1.0, accompanies the condensed Section 3 (Data and methods). It holds the field definitions, operator-confirmed platform behaviour, classification and storage rules, itemised exclusions, de-duplication tests and model settings that the main text summarises. It contains descriptions and aggregate counts only; no calculation records, template codes, sheet names or per-template results.
+Supplementary Note S2, added in version 1.1.0, accompanies the condensed Section 3 (Data and methods). It holds the field definitions, operator-confirmed platform behaviour, classification and storage rules, itemised exclusions, de-duplication tests and model settings that the main text summarises. Version 1.2.0 adds the uncertainty and robustness analyses reported in Sections 4.1, 4.2 and 4.6 of the paper: organisation-cluster bootstrap intervals, common-weight comparison of the governing groups, the within-template band gradient and the full specification grid (Tables S4–S7). It contains descriptions and aggregate counts only; no calculation records, template codes, sheet names or per-template results.
 
 ## Read the supplement
 
@@ -17,9 +17,9 @@ Supplementary Note S2, added in version 1.1.0, accompanies the condensed Section
 
 Supplementary Note S2 (data and methods details):
 
-- [Supplementary Note S2 PDF](supplementary_methods.pdf), including Supplementary Tables S2 (supplied fields) and S3 (itemised disposition of structural-template records).
+- [Supplementary Note S2 PDF](supplementary_methods.pdf), including Supplementary Tables S2 (supplied fields), S3 (itemised disposition of structural-template records), S4 (bootstrap intervals), S5 (common-weight comparison), S6 (within-template band gradient) and S7 (specification grid).
 - [Markdown source](methods/supplementary_note_S2_data_and_methods.md).
-- [Table S2 CSV](methods/table_S2_supplied_fields.csv) and [Table S3 CSV](methods/table_S3_structural_record_disposition.csv): machine-readable copies of the two tables.
+- [Table S2 CSV](methods/table_S2_supplied_fields.csv), [Table S3 CSV](methods/table_S3_structural_record_disposition.csv), [Table S4 CSV](methods/table_S4_bootstrap_intervals.csv), [Table S5 CSV](methods/table_S5_common_weight_comparison.csv), [Table S6 CSV](methods/table_S6_within_template_gradient.csv) and [Table S7 CSV](methods/table_S7_specification_grid.csv): machine-readable copies of the tables.
 - [PDF build script](scripts/build_methods_pdf.py).
 
 The table is a curated comparison. Its entries measure different outcomes and may include related datasets. Neither their sample counts nor their outcome percentages should be pooled. Original sources should be cited when using their findings; this package does not replace those citations.

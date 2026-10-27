@@ -1,6 +1,6 @@
 # Supplementary Note S2. Data and methods details
 
-Version 1.1.0 · 27 October 2026
+Version 1.2.0 · 27 October 2026
 
 This note accompanies Section 3 of Paper A, *Hidden Capacity in Everyday Structural Design*. It records the field definitions, platform behaviour confirmed by the operator, classification and storage rules, de-duplication tests and model settings that the main text summarises. All counts refer to the Calcs.com export analysed in the paper. The underlying calculation records are held by Calcs.com and are not part of this repository; access is described in the paper's Data availability statement.
 
@@ -84,7 +84,66 @@ Sheet names can contain personal information. They were held internally under th
 
 ## S2.7 Uncertainty and robustness
 
-Uncertainty for the headline mean used an engineer-clustered bootstrap with 1,000 replicates and seed 20260910. Four robustness procedures were applied. Aggregation sensitivity recomputed the governing mean with each record, project, engineer, material group or limit-state group weighted equally. A largest-account sensitivity repeated the main analyses with and without the single account that supplied about half of the records. A specification grid varied the lower inclusion threshold (0, 0.05 and 0.10) and whether de-duplication was applied. A template-coverage decomposition compared templates observed in both governing groups with those observed in only one. Records with utilisation above unity were summarised by check type.
+Uncertainty for the headline mean used a cluster bootstrap with 1,000 replicates and seed 20260910. Each replicate resampled whole clusters with replacement and recomputed the record-weighted mean as total utilisation divided by the number of records; the interval runs from the 2.5th to the 97.5th percentile of the replicates. Engineer accounts were the primary clusters. Because projects nest within organisations and one account supplied about half of the records, the bootstrap was repeated with organisations as clusters (Table S4). The organisation interval is more than twice as wide as the engineer interval and extends further above the mean than below it, because a replicate can omit or repeat the largest account, whose mean is below that of the other organisations. Both intervals are conditional on the observed platform population.
+
+**Table S4. Bootstrap 95% intervals for the record-weighted governing mean.**
+
+| Population | Resampling unit | Mean | 95% interval | Width relative to independent records |
+| --- | --- | ---: | ---: | ---: |
+| Headline set | Records (independent) | 0.5471 | 0.5467–0.5476 | 1.0 |
+| Headline set | Engineer accounts | 0.5471 | 0.5380–0.5576 | 22.3 |
+| Headline set | Organisations | 0.5471 | 0.5355–0.5812 | 51.9 |
+| Without the largest organisation | Records (independent) | 0.5657 | 0.5651–0.5663 | 1.0 |
+| Without the largest organisation | Engineer accounts | 0.5657 | 0.5498–0.5805 | 24.5 |
+| Without the largest organisation | Organisations | 0.5657 | 0.5446–0.5844 | 31.7 |
+
+Aggregation sensitivity recomputed the governing mean with each record, project (85,581 projects), engineer account (3,073), material group or limit-state group weighted equally. Equal material weighting averaged the means of timber, steel, concrete and cold-formed steel; adding the six FRP-concrete records as a fifth group would raise it from 0.5507 to 0.6138. Equal limit-state weighting averaged the strength-governed and deflection-governed means. A largest-account sensitivity repeated the main analyses with and without the single account that supplied about half of the records.
+
+A template-coverage decomposition compared templates observed in both governing groups with those observed in only one. Within the 46 shared templates the two groups were then compared at common template weights (Table S5). With each group's own records as weights, the strength-governed mean weights templates by their strength-governed records and the deflection-governed mean by their deflection-governed records, so the two means do not weight the templates in the same way. Common weights apply the same template weights to both means: either each template's records in both groups together, or equal weight per template. The deflection-governed mean was the higher of the two in 40 of the 46 templates, in 33 of the 36 templates with at least 30 records in each group, and in 41 of 46 without the largest organisation. These comparisons describe the recorded groups; they are not causal adjustments.
+
+**Table S5. Strength- and deflection-governed means in templates observed in both governing groups, by template weighting.**
+
+| Population | Template weights | Templates | Strength mean | Deflection mean | Difference |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Headline set | Each group’s own records | 46 | 0.4705 | 0.6259 | 0.1554 |
+| Headline set | Common: records in both groups | 46 | 0.4493 | 0.6412 | 0.1919 |
+| Headline set | Common: equal per template | 46 | 0.4972 | 0.6617 | 0.1645 |
+| Headline set, templates with ≥ 30 records in each group | Each group’s own records | 36 | 0.4704 | 0.6259 | 0.1555 |
+| Headline set, templates with ≥ 30 records in each group | Common: records in both groups | 36 | 0.4492 | 0.6412 | 0.1920 |
+| Headline set, templates with ≥ 30 records in each group | Common: equal per template | 36 | 0.4897 | 0.6669 | 0.1772 |
+| Without the largest organisation | Each group’s own records | 46 | 0.5202 | 0.6515 | 0.1313 |
+| Without the largest organisation | Common: records in both groups | 46 | 0.5124 | 0.6692 | 0.1568 |
+| Without the largest organisation | Common: equal per template | 46 | 0.5011 | 0.6593 | 0.1582 |
+| Without the largest organisation, templates with ≥ 30 records in each group | Each group’s own records | 35 | 0.5202 | 0.6515 | 0.1313 |
+| Without the largest organisation, templates with ≥ 30 records in each group | Common: records in both groups | 35 | 0.5124 | 0.6694 | 0.1569 |
+| Without the largest organisation, templates with ≥ 30 records in each group | Common: equal per template | 35 | 0.4960 | 0.6593 | 0.1633 |
+
+The band comparison was repeated within templates (Table S6). For templates with at least 30 member calculations in every governing-utilisation band, each band's deflection-governed share was averaged across templates with each template weighted by its total records, so the template mix is the same in every band. These templates held 1,408,076 of the 1,416,391 calculations. The deflection-governed share was higher in the highest band than in the lowest in 31 of the 40 templates, and in 30 of 39 without the largest account.
+
+**Table S6. Deflection-governed share by governing-utilisation band, pooled and with template weights held fixed.**
+
+| Governing utilisation | All calculations, pooled | All calculations, 40 templates standardised | Without the largest account, pooled | Without the largest account, 39 templates standardised |
+| --- | ---: | ---: | ---: | ---: |
+| ≤ 0.2 | 17.0% | 16.9% | 11.5% | 11.7% |
+| 0.2–0.4 | 40.2% | 39.2% | 23.6% | 23.8% |
+| 0.4–0.6 | 49.4% | 48.3% | 34.1% | 33.1% |
+| 0.6–0.8 | 57.8% | 58.4% | 40.3% | 40.1% |
+| > 0.8 | 63.7% | 67.0% | 45.0% | 47.2% |
+
+A specification grid varied the lower inclusion threshold and whether de-duplication, applied after the threshold, was used (Table S7). The upper bound remained D/C ≤ 1. The bearing-inclusive columns describe a different population from the headline set and are shown for comparison. Records with utilisation above unity were summarised by check type.
+
+**Table S7. Specification grid. Records entered when governing utilisation exceeded the lower threshold.**
+
+| Lower threshold | De-duplicated | Strength n | Mean | Deflection n | Mean | Headline n | Mean | Incl. bearing n | Mean |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 0.00 | No | 735,572 | 0.4727 | 691,900 | 0.6258 | 1,427,472 | 0.5469 | 1,454,574 | 0.5499 |
+| 0.00 | Yes | 729,207 | 0.4729 | 687,184 | 0.6259 | 1,416,391 | 0.5471 | 1,443,295 | 0.5501 |
+| 0.05 | No | 713,943 | 0.4861 | 690,893 | 0.6267 | 1,404,836 | 0.5553 | 1,431,933 | 0.5581 |
+| 0.05 | Yes | 707,881 | 0.4862 | 686,197 | 0.6268 | 1,394,078 | 0.5554 | 1,420,977 | 0.5582 |
+| 0.10 | No | 660,378 | 0.5193 | 686,537 | 0.6302 | 1,346,915 | 0.5758 | 1,372,971 | 0.5788 |
+| 0.10 | Yes | 654,905 | 0.5194 | 681,897 | 0.6303 | 1,336,802 | 0.5759 | 1,362,660 | 0.5789 |
+
+Per-template results behind Tables S5 and S6 are not released (S2.3).
 
 ## S2.8 Prediction comparison settings
 
@@ -98,4 +157,4 @@ The prediction comparison was run with Python 3.12.14, pandas 2.2.3, NumPy 2.3.5
 
 ## S2.9 Workflow
 
-The workflow combined cleaning and analysis notebooks with versioned analysis and figure scripts. All analyses consumed typed, classified data products. The prediction comparison used the hashed-sheet-name product, fixed seeds, project-disjoint validation and recorded solver diagnostics; its source checksum, configuration, aggregate outputs and package versions are recorded with the script. Parser and classifier tests and a field dictionary support the pipeline. Access to derived outputs and code is described in the paper's Data availability statement.
+The workflow combined cleaning and analysis notebooks with versioned analysis and figure scripts. All analyses consumed typed, classified data products. The prediction comparison used the hashed-sheet-name product, fixed seeds, project-disjoint validation and recorded solver diagnostics; its source checksum, configuration, aggregate outputs and package versions are recorded with the script. Parser and classifier tests and a field dictionary support the pipeline. The uncertainty and robustness analyses in S2.7 were run on the same hashed-sheet-name product with Python 3.9.6, pandas 2.3.1 and NumPy 2.0.2; the headline set was reproduced exactly before they were run. Access to derived outputs and code is described in the paper's Data availability statement.
