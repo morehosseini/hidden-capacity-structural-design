@@ -1,6 +1,6 @@
 # Paper A supplementary material
 
-Version 1.2.0 · 27 October 2026
+Version 1.2.1 · 27 October 2026
 
 This folder contains the repository content accompanying the shortened Table 1 and Section 2.2 in Paper A, *Hidden Capacity in Everyday Structural Design*. Supplementary Table S1 preserves the complete 22-entry comparison; eight selected studies remain in the manuscript. The package contains literature summaries and provenance, independently of the empirical-analysis release.
 

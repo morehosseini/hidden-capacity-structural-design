@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2.1 — 27 October 2026
+
+S2.6 now states the de-duplication rule decided on 27 October 2026. The current key is applied after the validity filters, and the latest-created record is kept, with ties broken by sheet identifier. The key without the governing reference is the reported sensitivity.
+
+S2.6 also reports three checks:
+
+- no member key had tied latest creation times;
+- de-duplicating before the filters would keep 362 fewer records and change the mean by less than 0.0001;
+- an explicit ISO 8601 parse recovers two creation times that had been left missing.
+
+No table or other section changed.
+
 ## 1.2.0 — 27 October 2026
 
 Supplementary Note S2, section S2.7, now reports the uncertainty and robustness analyses added to manuscript v0.24, with Tables S4–S7 and CSV copies under `methods/`:

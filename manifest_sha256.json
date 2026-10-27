@@ -1,16 +1,16 @@
 {
-  "package_version": "1.2.0",
+  "package_version": "1.2.1",
   "date": "2026-10-27",
   "algorithm": "SHA-256",
   "files": {
-    "CHANGELOG.md": "710f5f3e86a1c21d9fa4f3ff235bf73bf27735f4951b77cc4c484b3281316361",
-    "README.md": "9c05d5b653741390dfdb5f246b57a4ab2992602ba33ee0a96c581a99b7218527",
+    "CHANGELOG.md": "c03efae980c78ce789ef3ec48e292ccd9e081b3343b3c08b7185f225302c9d88",
+    "README.md": "369562ef953836fefcbfb966f8f22974316b00078141e5583f6d3913b7846f0b",
     "literature/references.md": "35d073b2cc5e0ce99fec10c456ca8ed5d4be4ef7e5819045d5cc225e7736eea1",
     "literature/search_and_selection_note.md": "c2a8bc1b815c8e94315967d218c97be84e7ef3d2d1537f20b757e44a2e341ac3",
     "literature/table_S1_extended_evidence.csv": "3c98382d9ed69f1c5b1afd20fca608e3c1c2d63e7f796ec26d2cf02ba7635392",
     "literature/table_S1_extended_evidence.json": "77481289a76a5bf00cb972c2fa22b13c1df656b6796fc26d0b66e6ad87c06749",
     "literature/table_S1_extended_evidence.md": "964aac5e33a3e646846d0803d518dab6a37c8009269e0671a21dd07eb4c2484b",
-    "methods/supplementary_note_S2_data_and_methods.md": "3aaa021c31efc9ed673cbff76bf3efe735ebe2c77e4f376927534401dc2ee3ac",
+    "methods/supplementary_note_S2_data_and_methods.md": "310a478efcf9107cba9552b05e31eaa42bf1343604b226670722f6f81abb5f8c",
     "methods/table_S2_supplied_fields.csv": "0bdc84401e2be6893ec64a1079f78221de4ae6d0cca26ee06edcbbf9e3434e02",
     "methods/table_S3_structural_record_disposition.csv": "b7ce1ccbc7337027c743e58d30282827ccaf4f3bec00f4f9e3b66d9f84e92298",
     "methods/table_S4_bootstrap_intervals.csv": "4bf4e9362ae545cde102038aac123f7fd15530a464a303a6ecab630890b618a6",
@@ -20,6 +20,6 @@
     "scripts/build_literature_pdf.py": "8ab283aea87a9831cdb7928024da5870966296b49ef5c83e218d9c8ae7182606",
     "scripts/build_methods_pdf.py": "e9a69d27af8038764734976263296325d91d9a0a8ced393c487f144f39078fc2",
     "supplementary_literature.pdf": "58472d2830b16b6aba1a4369c6d3f3941a428df786c28eaeba1cc8e2811127f0",
-    "supplementary_methods.pdf": "e3cb01fefdfc882a62d9bc195e231fa74593b9c050dfb27e10d8f9a87347f29d"
+    "supplementary_methods.pdf": "b6ff1464f644abccdde388486a57af5e1c1af810ad81d8860e9daeb7e1e21a97"
   }
 }
