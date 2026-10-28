@@ -1,22 +1,22 @@
 {
-  "package_version": "1.3.1",
-  "date": "2026-10-28",
+  "package_version": "1.4.0",
+  "date": "2026-10-29",
   "algorithm": "SHA-256",
   "files": {
-    "CHANGELOG.md": "f280b04e9327c8d417cb66afd5dfacd41573f4f15ce296384e01f09cfea1868e",
-    "README.md": "7d6a7d42940c46df73f1cc8348d7ef5f3321c351943a2471ae18d4cd0a26926f",
+    "CHANGELOG.md": "3d65ff9db1e039e183fb89c21f17970d62b60a529c640b1de28fafd13d6255fd",
+    "README.md": "d1a96028d5984c2479b7875153aa11d0b1bf4d158b69f341f953c90af683c978",
     "figures/figure_1_governing_utilisation_by_check.pdf": "8be2a501d66c77cc743fa8ec3b96ca9be7d8494d26cd11b81c6de740a15841c4",
     "figures/figure_1_governing_utilisation_by_check.png": "c313ae94e267a45532dd2da577defe7f11a757381f920ff4cc5eb72edc41aeb1",
     "figures/figure_2_governing_check_by_utilisation_band.pdf": "8bcea3c3843ecd6498b0ef097cde5078981d9a5b8181efcbceab339165adc2e9",
     "figures/figure_2_governing_check_by_utilisation_band.png": "65c5f07511b8be314b6260aadaa0887ca9739678184dceebd8190e815954acaa",
     "figures/figure_3_key_findings_at_a_glance.pdf": "b703a17ae8e4c5a1d1a1801d4fac7acbef0b0b10442f6e865b63bc566a20acac",
     "figures/figure_3_key_findings_at_a_glance.png": "524cf53346366a203dfa615bf74c560f8b54449f66178ca8acd399f459d3aee9",
-    "literature/references.md": "abd819f73ab9737a288ade403e332d38df1e89ef088c4c4455fd0692ca368780",
-    "literature/search_and_selection_note.md": "2e36efcce5e17ea7e034a024c03a1f8b96c0d54b62f48ae20e3bb68046f819b2",
+    "literature/references.md": "8e9e72a9794ed27f9517b144ba8349632139cc7c799f636d7ac481f87b9868b8",
+    "literature/search_and_selection_note.md": "e817868b2b813b90b321905b858bae2f148a50d090f75c2bc4bde6ee360694a5",
     "literature/table_S1_extended_evidence.csv": "18e895319bbf214d8c0f85036d97de79ca4f1a54216db70e95584af8fb248c85",
     "literature/table_S1_extended_evidence.json": "02f9abc966b7ba5d1bfed168a82da9dd36c2190e2389ebd9d987536df72ce4b3",
-    "literature/table_S1_extended_evidence.md": "29ba965cd20f57bf94596f272be6717725001dacd14406d7bb9ff88af065f1d6",
-    "methods/supplementary_note_S2_data_and_methods.md": "12917e3b2a507ead5fd3211cf4b0d74589c94bfe175090d34ce8113e2152a9eb",
+    "literature/table_S1_extended_evidence.md": "ab877dbb6bb79d39ffa7745ab3547d2306a895f3e31ea2dad9d26bf8bb35e326",
+    "methods/supplementary_note_S2_data_and_methods.md": "5e2eebde159b35fab8e92c9dd80fb58e131488f4a0018758a78678a666e76f23",
     "methods/table_S2_supplied_fields.csv": "0bdc84401e2be6893ec64a1079f78221de4ae6d0cca26ee06edcbbf9e3434e02",
     "methods/table_S3_structural_record_disposition.csv": "b7ce1ccbc7337027c743e58d30282827ccaf4f3bec00f4f9e3b66d9f84e92298",
     "methods/table_S4_bootstrap_intervals.csv": "4bf4e9362ae545cde102038aac123f7fd15530a464a303a6ecab630890b618a6",
@@ -25,7 +25,7 @@
     "methods/table_S7_specification_grid.csv": "cd1732e36faa886e7af577148e7a5f219cb7713d67411f83d0b20920c27f59bc",
     "scripts/build_literature_pdf.py": "3c164e1f36ceac35917dd9c1f3b2cd45b58b8b02932de70f9add6e5811962c00",
     "scripts/build_methods_pdf.py": "204940167e62f323609b3f917dfca28dd3d86c96bdb8373d21067ce5c711b10b",
-    "supplementary_literature.pdf": "8d1c371b5351584f8ee1a243e9c491d18a51c24b2b7cbf728b643a437d94632c",
-    "supplementary_methods.pdf": "6891010982559f8938a6b6e54c7df2097d6012e5744d42b34e67a10cb94e13b3"
+    "supplementary_literature.pdf": "f335a03b1d6d2f8fcf6d173c1865426f00761f0fa6847cc60e95444751ec78bd",
+    "supplementary_methods.pdf": "19c5ae8bf5961064c9ba3d458c6d32fe214322be4b508f42f58ac31fdb3588e2"
   }
 }

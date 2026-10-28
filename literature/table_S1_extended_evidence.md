@@ -2,7 +2,7 @@
 
 ## Extended comparison of structural utilisation and related design evidence
 
-Version 1.3.1 · 28 October 2026
+Version 1.4.0 · 29 October 2026
 
 This curated comparison accompanies Section 2.2 and the eight-study Table 1 in the paper “Strength to Spare, Deflection at the Limit: Governing Utilisation in 1.4 Million Structural Member Calculations”. It retains all 22 entries from the expanded comparison, grouped by their evidence role. It is an extended comparison rather than a systematic or exhaustive review. Entries are publications or study programmes, not 22 independent comparable datasets.
 

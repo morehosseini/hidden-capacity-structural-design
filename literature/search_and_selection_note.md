@@ -1,6 +1,6 @@
 # Search and selection note
 
-Version 1.3.1 · 28 October 2026
+Version 1.4.0 · 29 October 2026
 
 ## Purpose and routes
 

@@ -1,6 +1,6 @@
 # References for Supplementary Table S1
 
-Version 1.3.1 · 28 October 2026
+Version 1.4.0 · 29 October 2026
 
 ## S01 — Moynihan and Allwood (2014)
 

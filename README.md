@@ -47,7 +47,7 @@ The calculation records were provided by Calcs.com under a research data-sharing
 
 ## Status and citation
 
-The paper is not yet published. The current package is version **1.3.1**, available on the main branch. The [v1.0.0 release](https://github.com/morehosseini/hidden-capacity-structural-design/releases/tag/v1.0.0) holds an earlier Supplementary Table S1 package; it does not include the current complete supplement. There is no archival DOI yet. Until there is, please cite the repository by its address and version (see [CHANGELOG](CHANGELOG.md)). No open licence has been added yet. Source publications retain their own rights; this repository supplies original summaries and source links rather than copies of publisher PDFs.
+The paper is not yet published. The current package is version **1.4.0**, available on the main branch. The [v1.0.0 release](https://github.com/morehosseini/hidden-capacity-structural-design/releases/tag/v1.0.0) holds an earlier Supplementary Table S1 package; it does not include the current complete supplement. There is no archival DOI yet. Until there is, please cite the repository by its address and version (see [CHANGELOG](CHANGELOG.md)). No open licence has been added yet. Source publications retain their own rights; this repository supplies original summaries and source links rather than copies of publisher PDFs.
 
 ## Rebuild the PDFs
 
