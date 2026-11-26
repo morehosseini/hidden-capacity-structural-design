@@ -4,6 +4,7 @@
 
 - Note S2.4 reports the independent check of the check-type mapping and the template lookup. One of the authors labelled a stratified sample of 179 reference–template combinations and 131 templates without seeing the assigned labels. The labels agreed for all 90 sampled combinations that supplied analysed records, and applying every reviewer label changed the headline mean by −0.00003, within tolerances set before the review.
 - Both PDFs were rebuilt; Supplementary Table S1 changes only in its version line. Reported results, tables, figures and CSV values are unchanged.
+- 27 November 2026: the README now states that the paper is under consideration at *Structures*, replacing "in preparation". Nothing else changed.
 
 ## 1.3.1 — 28 October 2026
 
