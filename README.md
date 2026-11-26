@@ -6,7 +6,7 @@
 
 ![Key findings at a glance: distribution of governing utilisation by governing check, deflection-governed share by utilisation band, utilisation by material and member type, and prediction on withheld projects](figures/figure_3_key_findings_at_a_glance.png)
 
-How much of their designed capacity do structural members use in everyday practice? This repository holds the figures and supplementary material for a study of **1,416,391 governing member calculations with valid utilisation ratios up to unity**, made on the Calcs.com platform between January 2024 and June 2025 by 3,073 engineer accounts in 1,735 organisations. The calculations cover timber, steel, cold-formed steel and concrete, checked to Australian, US and Canadian standards. The paper is in preparation and has not yet been peer reviewed.
+How much of their designed capacity do structural members use in everyday practice? This repository holds the figures and supplementary material for a study of **1,416,391 governing member calculations with valid utilisation ratios up to unity**, made on the Calcs.com platform between January 2024 and June 2025 by 3,073 engineer accounts in 1,735 organisations. The calculations cover timber, steel, cold-formed steel and concrete, checked to Australian, US and Canadian standards. The paper is under consideration at *Structures* and has not yet been published.
 
 ## What the study found
 
